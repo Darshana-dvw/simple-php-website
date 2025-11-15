@@ -1,0 +1,31 @@
+Manual Installation
+If Winget is not available:
+
+Download PHP for Windows at https://windows.php.net/download/
+
+Choose the Thread Safe x64 ZIP version.
+
+Extract the zip file to a folder, e.g., C:\php.
+
+Add C:\php to your system PATH:
+
+Open Edit the system environment variables > Environment Variables.
+
+Under System variables, find Path, click Edit, then New, and add C:\php.
+
+Click OK to save.
+
+Open a new Command Prompt and verify PHP is available:
+
+text
+php -v
+Running the PHP Application Locally
+Navigate to your project folder:
+
+text
+cd C:\php_app_lab2
+Run the built-in PHP web server:
+
+text
+php -S localhost:8080
+Open browser and go to http://localhost:8080
